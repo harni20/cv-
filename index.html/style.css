@@ -1,0 +1,104 @@
+body {
+	background-color: #40034d;
+	margin: 0;
+	font-family: 'Georgia', sans-serif;
+  }
+  
+  .mainprofile {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	max-width: 1200px;
+	min-height: 1200px;
+	margin: 50px auto;
+	background: #f5f5f5;
+	box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .left-container, .right-container {
+	flex: 1;
+	padding: 20px;
+	border: 1px solid #ccc;
+  }
+  
+  .left-container {
+	border-right: none;
+	background-color: #a362e0; /* Couleur violette pour la partie gauche */
+  }
+  
+  .right-container {
+	background-color: #fff;
+	border-left: 2px solid #000;
+  }
+  
+  h1, h3, h4 {
+	color: #111111;
+  }
+  
+  .img-area {
+	width: 150px;
+	height: 150px;
+	transform: translateX(80%);
+	border: 10px groove rgb(92, 69, 190);
+  }
+  
+  .img-area img {
+	width: 100%;
+	height: 150px;
+
+  }
+  
+  .profil, .purple-bloc {
+	font-family: 'Georgia', sans-serif;
+	padding: 20px 30px;
+  }
+  
+  .profil h4, .purple-bloc h3 {
+	text-align: left;
+	font-weight: bold;
+	color: #000;
+  }
+  
+  .info li, .right-container li {
+	list-style: none;
+	padding: 5px 0;
+	font-size: 16px;
+  }
+  
+  .fa {
+	margin-right: 10px;
+  } 
+  .profil h3, .purple-bloc h3 {
+	text-transform: uppercase;
+	color: #480357;
+	background: #e4dfe4;
+	padding: 0 15px;
+	margin-top: 25px;
+	display: inline-flex;
+  }
+  .right-container h3 {
+	text-transform: uppercase;
+	color: #000;
+	background: #a362e0;
+	padding: 0 15px;
+	margin-top: 25px;
+	display: inline-flex;
+  }
+  
+  .right-container{
+	line-height: 0.9 em; }
+
+.HOBBIES{
+	padding: 0 20px;
+
+}
+
+.HOBBIES ul{
+display: flex;
+flex-direction: column;
+gap: 0px;
+}
+
+
+
+
